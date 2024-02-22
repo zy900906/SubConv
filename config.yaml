@@ -120,20 +120,20 @@ CUSTOM_PROXY_GROUP:
 - name: ♻️ 自动选择
   type: url-test
   rule: false
-  regex:直连|yw|jgw
+  regex: 直连|yw|jgw
 - name: 🚀 手动切换
   type: select
   manual: true
   rule: false
-  regex:直连|yw|jgw
+  regex: 直连|yw|jgw
 - name: 🔯 故障转移
   type: fallback
   rule: false
-  regex:直连|yw|jgw
+  regex: 直连|yw|jgw
 - name: 🔮 负载均衡
   type: load-balance
   rule: false
-  regex:直连|yw|jgw
+  regex: 直连|yw|jgw
 - name: 🔮 香港负载均衡
   type: load-balance
   rule: false
