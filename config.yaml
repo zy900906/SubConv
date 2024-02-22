@@ -226,5 +226,5 @@ CUSTOM_PROXY_GROUP:
 - name: 币节点
   type: url-test
   rule: false
-  regex: 🇹🇼|TW|Taiwan|新北|彰化|CHT|台|HINET|🇰🇷|KO?R|Korea|首尔|韩|韓|🇯🇵|JP|Japan|Tokyo|Osaka|Saitama|东京|大阪|埼玉|日|🇸🇬|SG|Singapore|狮城|^新[^节北]|[^刷更]新[^节北]|🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港
+  regex: 🇹🇼|TW|Taiwan|新北|彰化|CHT|台|HINET|🇰🇷|KO?R|Korea|首尔|韩|韓|🇯🇵|JP|Japan|Tokyo|Osaka|Saitama|东京|大阪|埼玉|日|🇸🇬|SG|Singapore|狮城|^新[^节北]|[^刷更]新[^节北]|🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港|jgw
 
