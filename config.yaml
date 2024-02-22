@@ -120,15 +120,15 @@ CUSTOM_PROXY_GROUP:
 - name: ♻️ 自动选择
   type: url-test
   rule: false
-  regex: 直连|yw|jgw
+  regex: 直连|yw|zy
 - name: 🚀 手动切换
   type: select
   rule: false
-  regex: 直连|yw|jgw
+  regex: 直连|yw|zy
 - name: 🔮 负载均衡
   type: load-balance
   rule: false
-  regex: 直连|yw|jgw
+  regex: 直连|yw|zy
 - name: 🔮 香港负载均衡
   type: load-balance
   rule: false
@@ -226,5 +226,4 @@ CUSTOM_PROXY_GROUP:
 - name: 币节点
   type: url-test
   rule: false
-  regex: 🇹🇼|TW|Taiwan|新北|彰化|CHT|台|HINET|🇰🇷|KO?R|Korea|首尔|韩|韓|🇯🇵|JP|Japan|Tokyo|Osaka|Saitama|东京|大阪|埼玉|日|🇸🇬|SG|Singapore|狮城|^新[^节北]|[^刷更]新[^节北]|🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港|jgw
-
+  regex: 🇹🇼|TW|Taiwan|新北|彰化|CHT|台|HINET|🇰🇷|KO?R|Korea|首尔|韩|韓|🇯🇵|JP|Japan|Tokyo|Osaka|Saitama|东京|大阪|埼玉|日|🇸🇬|SG|Singapore|狮城|^新[^节北]|[^刷更]新[^节北]|🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港|zy
